@@ -1,0 +1,29 @@
+/* pages/table/table.wxss */
+.table .img-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.table .img-wrap .left{
+  font-size: 10px;
+  width:60rpx;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.table .img-wrap .right{
+  font-size: 10px;
+  width:60rpx;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.table .img-wrap .img {
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border-right:1px solid #888;
+  border-left:1px solid #888;
+}

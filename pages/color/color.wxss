@@ -1,0 +1,33 @@
+/* pages/color/color.wxss */
+.color .img {
+  padding: 40rpx 0;
+  width: 350rpx;
+  align-items: center;
+}
+.color .color-img{
+  width: 100%;
+}
+.color .picker{
+  margin-top: 40rpx;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.color .submit-btn{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40rpx;
+}
+.color .submit-btn button{
+  width: 300rpx;
+  border-radius: 100rpx;
+  font-size: 16px;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: linear-gradient(to right, #008aff , #00ccff);
+  color:#fefefe;
+  border: none;
+}
+.color .submit-btn .greybtn{
+  background: #888;
+}

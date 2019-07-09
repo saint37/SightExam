@@ -1,0 +1,22 @@
+<!--pages/result/result.wxml-->
+<view class='container'>
+  <view class='result-wrap'>
+    <text class='title'>检测结果</text>
+    <view class='result-list'>
+      <text>视力检测</text>
+      <text>结果</text>
+    </view>
+    <view class='result-list'>
+      <text>色盲检测</text>
+      <text>结果</text>
+    </view>
+    <view class='result-list'>
+      <text>散光检测</text>
+      <text>结果</text>
+    </view>
+    <view class='submit-btn'>
+        <button bindtap="submit">分享</button>
+        <text>点击分享你的检测结果</text>
+    </view>
+  </view>
+</view>

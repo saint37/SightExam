@@ -1,21 +1,37 @@
 /**index.wxss**/
-.userinfo {
+.sight-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.navbar{
+  display: flex;
+  position: absolute;
+  background:#000;
+  left: 0;
+  top: 0;
+  z-index: 500;
+  width: 100%;
+  height: 40px;
+  flex-direction: row;
+  text-align: center;
+  color: #efefef;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.navbar-item{
+  flex: 1;
+  padding: 16rpx 0px;
+}
+.navbar-item-active{
+  transition: all 0.3s;
+  border-bottom: 8rpx solid #fff;
+  color: #fff;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+/* 主体内容 */
+.sight-content-wrapper{
+  padding-top: 40px;
 }
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+.swiper{
+  height: 500px;
 }

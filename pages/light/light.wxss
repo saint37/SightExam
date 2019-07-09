@@ -1,0 +1,27 @@
+/* pages/light/light.wxss */
+.light .img {
+  padding: 60rpx 0;
+  width: 450rpx;
+  align-items: center;
+}
+.light .light-img{
+  width: 100%;
+}
+.light .radio-group{
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0;
+}
+.light .radio{
+  padding: 5rpx 0;
+}
+.light .submit-btn button{
+  width: 400rpx;
+  border-radius: 100rpx;
+  font-size: 16px;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: linear-gradient(to right, #008aff , #00ccff);
+  color:#fefefe;
+  border: none;
+}

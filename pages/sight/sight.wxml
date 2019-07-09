@@ -1,0 +1,21 @@
+<!--pages/sight/sight.wxml-->
+<view class='container sight'>
+  <text class='info'>保持手机在眼前40cm处，选择E的朝向</text>
+  <view class="img-wrap">
+    <view class='left'><text>{{leftNum}}</text></view>
+    <view class='img'>
+      <image src="/assets/E.png" class="sight-img" mode='widthFix' style='width:100px'></image>
+    </view>
+    <view class='right'><text>{{rightNum}}</text></view>
+  </view>
+  <view class='ruler'></view>
+  <view class='submit-btn'>
+    <button bindtap="top">上</button>
+      <view class='center'>
+        <button bindtap="left">左</button>
+        <button bindtap="cannot" class='greybtn'>看不清</button>
+        <button bindtap="right">右</button>
+      </view>
+    <button bindtap="bottom">下</button>
+  </view>
+</view>

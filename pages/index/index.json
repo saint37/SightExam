@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "Light": "/pages/light/light",
+    "Color": "/pages/color/color",
+    "Sight": "/pages/sight/sight",
+    "Table": "/pages/table/table"
+  }
 }

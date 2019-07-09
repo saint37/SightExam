@@ -1,0 +1,19 @@
+<!--pages/color/color.wxml-->
+<view class='container color'>
+  <view class="img">
+    <image src="/assets/color/1.png" class="color-img" mode='widthFix'></image>
+  </view>
+  <text>请填写图片中的数字。</text>
+  <view>
+    <picker-view indicator-style="height: 50px;" class="picker" value="{{value}}" bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{num}}" style="line-height: 50px">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+  <view class='submit-btn'>
+    <button bindtap="cannot" class='greybtn'>看不清楚</button>
+    <button bindtap="see">确认输入</button>
+  </view>
+</view>
+

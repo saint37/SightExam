@@ -1,0 +1,17 @@
+<!--pages/light/light.wxml-->
+<view class='container light'>
+  <view class="img">
+    <image src="/assets/light.png" class="light-img" mode='widthFix'></image>
+  </view>
+  <text>请确保直视图片，选择您观察的结果。</text>
+  <view>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+  <view class='submit-btn'>
+    <button bindtap="submit">提交</button>
+  </view>
+</view>

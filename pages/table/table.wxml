@@ -1,0 +1,17 @@
+<!--pages/table/table.wxml-->
+<view class='container table'>
+  <view class="img-wrap">
+    <view class='left'><text style='font-size:12px'>小数</text></view>
+    <view class='img'>
+      <text style='font-size:12px;padding:10rpx'>标准视力表</text>
+    </view>
+    <view class='right'><text style='font-size:12px'>五分</text></view>
+  </view>
+  <view class="img-wrap">
+    <view class='left'><text>{{leftNum}}</text></view>
+    <view class='img'>
+      <image src="/assets/E.png" class="sight-img" mode='widthFix' style='width:200px'></image>
+    </view>
+    <view class='right'>{{rightNum}}</view>
+  </view>
+</view>
